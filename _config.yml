@@ -18,13 +18,11 @@ home:
 collections:
   about_blocks: # page about-us
     output: true
-    sort: weight
   products: # page aws-machine-images
     output: true
-    sort: weight
   services:
     output: true
-    sort: weight
+    # sort_by: weight # doesn't work on github pages https://talk.jekyllrb.com/t/collections-dont-order-properly-on-github-pages/4652/3
   team:
     output: true
 
