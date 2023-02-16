@@ -7,3 +7,6 @@ menuTrigger.onclick = function() {
     menuTrigger.classList.toggle('is-active')
     body.classList.toggle('lock-scroll')
 }
+
+// custom
+document.getElementById("js-copyright-year").innerHTML = new Date().getFullYear();

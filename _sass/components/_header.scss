@@ -1,6 +1,6 @@
 .header {
   color: #ffffff;
-  background-color: $primary;
+  background-color: darken($primary, 10%);
   display: flex;
   justify-content: space-between;
   align-items: center;

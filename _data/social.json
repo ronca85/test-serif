@@ -1,8 +1,8 @@
 [
   {
-    "name": "Github",
-    "link": "https://github.com/kurianinc",
-    "image": "images/social/github.svg"
+    "name": "Facebook",
+    "link": "https://facebook.com/kurianinc",
+    "image": "images/social/facebook.svg"
   },
   {
     "name": "Twitter",
@@ -10,8 +10,13 @@
     "image": "images/social/twitter.svg"
   },
   {
-    "name": "Facebook",
-    "link": "https://facebook.com/kurianinc",
-    "image": "images/social/facebook.svg"
+    "name": "Github",
+    "link": "https://github.com/kurianinc",
+    "image": "images/social/github.svg"
+  },
+  {
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/company/kurianinc",
+    "image": "images/social/linkedin.svg"
   }
 ]
