@@ -2,15 +2,15 @@ url: ronca85.github.io
 baseurl: '/'
 # baseurl: '/test-serif'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Kurian'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
   mobile_height: "32px"
-  mobile_width: "32px"
+  mobile_width: "54px"
   desktop: "images/logo/logo.svg"
-  desktop_height: "76px"
-  desktop_width: "128px"
+  desktop_height: "38px"
+  desktop_width: "64px"
 
 home: 
   limit_services: 6

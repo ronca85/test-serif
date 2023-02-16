@@ -1,13 +1,14 @@
 ---
-title: Jekyll Serif Theme
+title: Homepage | Kurian
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: Kurian Provides building blocks of Cloud Infrastructure and Devops.
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: true
 ---
 
-# Serifsdf - A Jekyll Business Theme.
+Welcome to
+# Kurian
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+Provides building blocks of Cloud Infrastructure and Devops

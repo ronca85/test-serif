@@ -1,7 +1,15 @@
 @font-face {
-	font-family: 'Playfair Display';
+	font-family: 'Mona Sans Regular';
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
-	src: local(''), url('../fonts/playfair-display.woff2') format('woff2');
+	// src: local(''), url('../fonts/playfair-display.woff2') format('woff2'); // theme default whn using googlefonts
+	src: local(''), url('../fonts/Mona-Sans-Regular.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Mona Sans Bold';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: local(''), url('../fonts/Mona-Sans-Bold.woff2') format('woff2');
 }

@@ -1,12 +1,17 @@
 [
   {
     "name": "Github",
-    "link": "https://github.com/zerostaticthemes/jekyll-serif-theme",
+    "link": "https://github.com/kurianinc",
     "image": "images/social/github.svg"
   },
   {
     "name": "Twitter",
-    "link": "https://twitter.com/zerostaticio",
+    "link": "https://twitter.com/DevOpsCompany",
     "image": "images/social/twitter.svg"
+  }
+  {
+    "name": "Facebook",
+    "link": "https://facebook.com/DevOpsCompany",
+    "image": "images/social/facebook.svg"
   }
 ]
