@@ -49,3 +49,5 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+
+remote_theme: ronca85/test-serif
