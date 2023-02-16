@@ -1,0 +1,24 @@
+.card {
+  position: relative;
+
+  .card-link {
+    position: static;
+
+    &:before {
+      background: transparent;
+      bottom: 0;
+      content: "";
+      left: 0;
+      overflow: hidden;
+      position: absolute;
+      right: 0;
+      top: 0;
+      white-space: nowrap;
+      z-index: 1;
+    }
+  }
+  
+  img {
+    width: 100%;
+  }
+}

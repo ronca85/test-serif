@@ -60,11 +60,14 @@ $sub-footer-text-color: $white;
 @import "components/social";
 @import "components/fonts"; // Uncomment this line to self host font
 
+// custom
+@import "components/card";
+@import "components/block";
+
 // Pages
 @import "pages/page-home";
 @import "pages/page-teams";
 @import "pages/page-service";
-@import "pages/page-about-us";
 
 body {
   font-size: 16px;
@@ -79,4 +82,9 @@ body {
 ::selection {
   background-color: $black;
   color: $white;
+}
+
+code {
+  color: #e83e8c;
+  background-color: rgb(232 62 140 / 10%);
 }

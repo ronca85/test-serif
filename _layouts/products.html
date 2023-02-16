@@ -1,0 +1,42 @@
+---
+layout: default
+bodyClass: "page-products"
+---
+
+<div class="page-header">
+  <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-8">
+        <div class="page-header-inner">
+          <h1 class="title">{{page.title}}</h1>
+          <div class="content">{{content}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-start mb-4">
+      {% assign products = site.products | sort: "weight" %}
+      {% for product in site.products %}
+      <div class="col-12 col-md-6 col-xl-4">
+        <div class="card">
+          {% if product.image %}
+          <div class="card-preview">
+              <img alt="{{ product.title }}" src="{{ product.image | relative_url }}" />
+          </div>
+          {% endif %}
+          <div class="card-content">
+            <h2 class="card-title">
+              <a href="{{ product.url | relative_url }}" class="card-link">{{ product.title }}</a>
+            </h2>
+            <!-- <p>{{ product.content | markdownify }}</p> -->
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
