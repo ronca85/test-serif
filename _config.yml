@@ -18,13 +18,13 @@ home:
 collections:
   about_blocks: # page about-us
     output: true
-    sort_by: weight
+    sort: weight
   products: # page aws-machine-images
     output: true
-    sort_by: weight
+    sort: weight
   services:
     output: true
-    sort_by: weight
+    sort: weight
   team:
     output: true
 
