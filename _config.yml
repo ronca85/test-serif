@@ -1,5 +1,6 @@
 url: ronca85.github.io
-baseurl: '/test-serif'
+baseurl: '/'
+# baseurl: '/test-serif'
 permalink: pretty
 title: 'Jekyll Serif'
 
@@ -8,8 +9,8 @@ logo:
   mobile_height: "32px"
   mobile_width: "32px"
   desktop: "images/logo/logo.svg"
-  desktop_height: "32px"
-  desktop_width: "120px"
+  desktop_height: "76px"
+  desktop_width: "128px"
 
 home: 
   limit_services: 6
