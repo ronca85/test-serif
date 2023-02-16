@@ -16,7 +16,7 @@ bodyClass: "page-about-us"
 
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
-    {% assign about_blocks = site.about_blocks | sort: "weight" %}
+    {% assign about_blocks = site.about_blocks | sort: 'weight' %}
     
     {% for block in about_blocks %}
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
