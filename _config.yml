@@ -21,7 +21,6 @@ collections:
     sort_by: weight
   products: # aws-machine-images
     output: true
-    sort_by: weight
   services:
     output: true
     sort_by: weight
