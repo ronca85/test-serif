@@ -16,11 +16,12 @@ home:
   limit_services: 6
 
 collections:
-  about-blocks: # about-us
+  about_blocks: # page about-us
     output: true
     sort_by: weight
-  products: # aws-machine-images
+  products: # page aws-machine-images
     output: true
+    sort_by: weight
   services:
     output: true
     sort_by: weight

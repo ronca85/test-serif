@@ -16,7 +16,7 @@ bodyClass: "page-about-us"
 
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
-    {% for block in site.about-blocks %}
+    {% for block in site.about_blocks %}
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     <div class="row justify-content-start align-items-center mb-4">
       <div class="col-12 col-md-6 {% cycle '', 'order-md-1' %}">
