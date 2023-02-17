@@ -1,27 +1,27 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
+    "title": "Documentation",
+    "description": "Document tools and processes for continuity and maintenance.",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
+      "url": "images/features/documentation.png",
       "width": 80,
       "height": 80
     }
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Processes",
+    "description": "Rollout processes to sustain automation efforts.",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
+      "url": "images/features/processes.png",
       "width": 80,
       "height": 80
     }
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Tools",
+    "description": "Help you select the right DevOps toolchain for automation and roll them out.",
     "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
+      "url": "images/features/tools.png",
       "width": 80,
       "height": 80
     }

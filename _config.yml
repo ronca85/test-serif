@@ -14,6 +14,7 @@ logo:
 
 home: 
   limit_services: 6
+  limit_news: 3
 
 collections:
   about_blocks: # page about

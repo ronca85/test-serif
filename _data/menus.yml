@@ -11,15 +11,15 @@ main:
   - name: "Services"
     url: "/aws-professional-services/"
     weight: 40
-  - name: "Contact"
-    url: "/contact/"
-    weight: 50
   - name: "Resources"
     url: "/resources/"
-    weight: 60
-  - name: "Team"
-    url: "/team/"
-    weight: 70
+    weight: 50
+  # - name: "Team"
+  #   url: "/team/"
+  #   weight: 70
+  # - name: "Contact"
+  #   url: "/contact/"
+  #   weight: 50
 
 footer:
   - name: "Home"
