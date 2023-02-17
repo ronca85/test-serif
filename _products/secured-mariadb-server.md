@@ -1,7 +1,7 @@
 ---
 title: "Secured MariaDB Server"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/maria-db.jpg"
+image: "images/products/maria-db.jpg"
 layout: product
 description: Secured MariaDB Server description
 permalink: "/aws-machine-images/secured-mariadb-server/"

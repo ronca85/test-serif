@@ -1,7 +1,7 @@
 ---
 title: "Jenkins Server"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/jenkins.jpg"
+image: "images/products/jenkins.jpg"
 layout: product
 description: Jenkins Server description
 permalink: "/aws-machine-images/jenkins-server/"

@@ -1,7 +1,7 @@
 ---
 title: "Kurian Build Server"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/kurian-build-server.jpg"
+image: "images/products/kurian-build-server.jpg"
 layout: product
 description: Kurian Build Server description
 permalink: "/aws-machine-images/kurian-build-server/"

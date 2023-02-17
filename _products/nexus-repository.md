@@ -1,7 +1,7 @@
 ---
 title: "Nexus Repository Manager"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/nexus-repository.jpg"
+image: "images/products/nexus-repository.jpg"
 layout: product
 description: Nexus Repository Manager description
 permalink: "/aws-machine-images/nexus-repository-manager/"

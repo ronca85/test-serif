@@ -1,7 +1,7 @@
 ---
 title: "OpenSSH FTP Server"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/open-ssh.jpg"
+image: "images/products/open-ssh.jpg"
 layout: product
 description: OpenSSH FTP Server description
 permalink: "/aws-machine-images/openssh-ftp-server/"

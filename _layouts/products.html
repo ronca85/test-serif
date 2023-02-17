@@ -23,17 +23,19 @@ bodyClass: "page-products"
       
       {% for product in products %}
       <div class="col-12 col-md-6 col-xl-4">
-        <div class="card">
-          {% if product.image %}
-          <div class="card-preview">
-              <img alt="{{ product.title }}" src="{{ product.image | relative_url }}" />
-          </div>
-          {% endif %}
-          <div class="card-content">
-            <h2 class="card-title">
-              <a href="{{ product.url | relative_url }}" class="card-link">{{ product.title }}</a>
-            </h2>
-            <!-- <p>{{ product.content | markdownify }}</p> -->
+        <div class="card-wrapper">
+          <div class="card">
+            {% if product.image %}
+            <div class="card-preview">
+                <img alt="{{ product.title }}" src="{{ product.image | relative_url }}" />
+            </div>
+            {% endif %}
+            <div class="card-content">
+              <h2 class="card-title">
+                <a href="{{ product.url | relative_url }}" class="card-link">{{ product.title }}</a>
+              </h2>
+              <!-- <p>{{ product.content | markdownify }}</p> -->
+            </div>
           </div>
         </div>
       </div>

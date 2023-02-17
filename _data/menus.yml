@@ -2,20 +2,20 @@ main:
   - name: "Home"
     url: "/"
     weight: 10
-  - name: "About us"
-    url: "/about-us/"
+  - name: "About"
+    url: "/about/"
     weight: 20
-  - name: "Services"
-    url: "/services/"
-    weight: 30
-  - name: "Team"
-    url: "/team/"
-    weight: 40
-  - name: "AWS Machine Images"
+  - name: "Products"
     url: "/aws-machine-images/"
-    weight: 50
+    weight: 30
+  - name: "Services"
+    url: "/aws-professional-services/"
+    weight: 40
   - name: "Contact"
     url: "/contact/"
+    weight: 50
+  - name: "Team"
+    url: "/team/"
     weight: 60
 
 footer:
@@ -24,4 +24,4 @@ footer:
     weight: 10
   - name: "Contact"
     url: "/contact/"
-    weight: 60
+    weight: 50

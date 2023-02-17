@@ -1,7 +1,7 @@
 ---
 title: "Joomla! on LAMP Stack"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/joomla.jpg"
+image: "images/products/joomla.jpg"
 layout: product
 description: Joomla! on LAMP Stack description
 permalink: "/aws-machine-images/joomla-on-lamp-stack/"

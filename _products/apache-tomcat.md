@@ -1,7 +1,7 @@
 ---
 title: "Apache Tomcat"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/tomcat.jpg"
+image: "images/products/tomcat.jpg"
 layout: product
 description: Apache Tomcat description
 permalink: "/aws-machine-images/apache-tomcat/"

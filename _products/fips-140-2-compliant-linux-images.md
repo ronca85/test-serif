@@ -1,7 +1,7 @@
 ---
 title: "FIPS 140 2 Compliant Linux Images"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/fips.jpg"
+image: "images/products/fips.jpg"
 layout: product
 description: FIPS 140 2 Compliant Linux Images description
 permalink: "/aws-machine-images/fips-140-2-compliant-linux-images/"

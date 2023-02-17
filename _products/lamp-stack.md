@@ -1,7 +1,7 @@
 ---
 title: "LAMP Stack"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/lamp.jpg"
+image: "images/products/lamp.jpg"
 layout: product
 description: LAMP Stack description
 permalink: "/aws-machine-images/lamp-stack/"

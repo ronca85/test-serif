@@ -1,7 +1,7 @@
 ---
 title: "SonarQube"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/sonarqube.png"
+image: "images/products/sonarqube.png"
 layout: product
 description: SonarQube description
 permalink: "/aws-machine-images/sonarqube/"

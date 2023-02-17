@@ -1,7 +1,7 @@
 ---
 title: "DevOps Desk with Ansible"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/ansible.jpg"
+image: "images/products/ansible.jpg"
 layout: product
 description: DevOps Desk with Ansible description
 permalink: "/aws-machine-images/devops-desk-with-ansible/"

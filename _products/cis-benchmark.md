@@ -1,7 +1,7 @@
 ---
 title: "CIS Benchmark Hardened Linux AMIs"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/cis-benchmark.jpg"
+image: "images/products/cis-benchmark.jpg"
 layout: product
 description: CIS Benchmark Hardened Linux AMIs description
 permalink: "/aws-machine-images/cis-benchmark-hardened-linux-amis/"

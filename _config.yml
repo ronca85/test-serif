@@ -16,7 +16,7 @@ home:
   limit_services: 6
 
 collections:
-  about_blocks: # page about-us
+  about_blocks: # page about
     output: true
   products: # page aws-machine-images
     output: true

@@ -1,7 +1,7 @@
 ---
 title: "Nagios Server"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/nagios.jpg"
+image: "images/products/nagios.jpg"
 layout: product
 description: Nagios Server description
 permalink: "/aws-machine-images/nagios-server/"

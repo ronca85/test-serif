@@ -1,7 +1,7 @@
 ---
 title: "Asgard 1.5.1 AMI by Kurian"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/asgard.jpg"
+image: "images/products/asgard.jpg"
 layout: product
 description: Asgard 1.5.1 AMI by Kurian description
 permalink: "/aws-machine-images/asgard-151-ami-by-kurian/"

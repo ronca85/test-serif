@@ -1,7 +1,7 @@
 ---
 title: "Jenkins Slave"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/jenkins-slave.jpg"
+image: "images/products/jenkins-slave.jpg"
 layout: product
 description: Jenkins Slave description
 permalink: "/aws-machine-images/jenkins-slave/"

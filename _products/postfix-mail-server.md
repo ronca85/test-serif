@@ -1,7 +1,7 @@
 ---
 title: "Postfix Mail Server"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/postfix.jpg"
+image: "images/products/postfix.jpg"
 layout: product
 description: Postfix Mail Server description
 permalink: "/aws-machine-images/postfix-mail-server/"

@@ -1,7 +1,7 @@
 ---
 title: "CentOS 8 by Kurian"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/centos.jpg"
+image: "images/products/centos.jpg"
 layout: product
 description: CentOS 8 by Kurian description
 permalink: "/aws-machine-images/centos-8-by-kurian/"

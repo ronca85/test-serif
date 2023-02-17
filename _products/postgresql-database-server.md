@@ -1,7 +1,7 @@
 ---
 title: "PostgreSQL Database Server"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/postgresql.png"
+image: "images/products/postgresql.png"
 layout: product
 description: PostgreSQL Database Server description
 permalink: "/aws-machine-images/postgresql-database-server/"

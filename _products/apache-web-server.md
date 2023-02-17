@@ -1,7 +1,7 @@
 ---
 title: "Apache Web Server"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/apache-web-server.jpg"
+image: "images/products/apache-web-server.jpg"
 layout: product
 description: Apache Web Server description
 permalink: "/aws-machine-images/apache-web-server/"

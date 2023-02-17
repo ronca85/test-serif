@@ -1,7 +1,7 @@
 ---
 title: "WordPress on LAMP Stack"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/wordpress-lamp.jpg"
+image: "images/products/wordpress-lamp.jpg"
 layout: product
 description: WordPress on LAMP Stack description
 permalink: "/aws-machine-images/wordpress-on-lamp-stack/"

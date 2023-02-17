@@ -1,7 +1,7 @@
 ---
 title: "Apache Cassandra Node"
 date: 2023-01-01T10:00:00+10:00
-image: "images/card-images/cassandra.jpg"
+image: "images/products/cassandra.jpg"
 layout: product
 description: Apache Cassandra Node description
 permalink: "/aws-machine-images/apache-cassandra-node/"
