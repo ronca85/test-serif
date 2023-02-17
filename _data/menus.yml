@@ -14,9 +14,12 @@ main:
   - name: "Contact"
     url: "/contact/"
     weight: 50
+  - name: "Resources"
+    url: "/resources/"
+    weight: 60
   - name: "Team"
     url: "/team/"
-    weight: 60
+    weight: 70
 
 footer:
   - name: "Home"

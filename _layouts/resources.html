@@ -1,0 +1,38 @@
+---
+layout: default
+bodyClass: "page-resources"
+---
+
+<div class="page-header">
+  <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-8">
+        <div class="page-header-inner">
+          <h1 class="title">{{page.title}}</h1>
+          <div class="content">{{content}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-start mb-4">
+      {% assign resources = site.resources | sort: 'weight' %}
+      
+      {% for resource in resources %}
+      <div class="col-12 col-md-6 mb-3">
+        <h2 class="card-title">
+          {% if resource.externalUrl %}
+          <a href="{{ resource.externalUrl }}" target="_blank" class="card-link">{{ resource.title }}</a>
+          {% else %}
+          <a href="{{ resource.url | relative_url }}" class="card-link">{{ resource.title }}</a>
+          {% endif %}
+        </h2>
+      </div>
+
+      {% endfor %}
+    </div>
+  </div>
+</div>

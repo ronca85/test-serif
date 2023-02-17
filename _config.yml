@@ -23,6 +23,8 @@ collections:
   services:
     output: true
     # sort_by: weight # doesn't work on github pages https://talk.jekyllrb.com/t/collections-dont-order-properly-on-github-pages/4652/3
+  resources:
+    output: true
   team:
     output: true
 
