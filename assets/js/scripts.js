@@ -11,13 +11,35 @@ menuTrigger.onclick = function() {
 // custom
 document.getElementById("js-copyright-year").innerHTML = new Date().getFullYear();
 
-var mobileDropdowns = [...document.querySelectorAll(".js-mobile-dropdown-toggle")]
+var mobileDropdownToggleButtons = [...document.querySelectorAll(".js-mobile-dropdown-toggle")]
+var mobileDropdownPanels = [...document.querySelectorAll(".js-mobile-dropdown-panel")]
 
-function handleClickMobileDropdown() {
-    mobileDropdowns.forEach((item) => item.nextElementSibling.classList.remove("active"))
-    this.nextElementSibling.classList.toggle("active")
+function handleClickMobileDropdownToggle(el) {
+    
+    var panel = el.target.nextElementSibling;
+
+    if (!panel.classList.contains('active')) {
+        panel.classList.add('active');
+        panel.style.height = 'auto';
+    
+        var height = panel.clientHeight + 'px';
+    
+        panel.style.height = '0px';
+    
+        setTimeout(function () {
+            panel.style.height = height;
+        }, 0);
+    } else {
+        panel.style.height = '0px';
+    
+        panel.addEventListener('transitionend', function () {
+            panel.classList.remove('active');
+        }, {
+            once: true
+        });
+    }
 }
 
-mobileDropdowns.forEach((item) => {
-    item.addEventListener("click", handleClickMobileDropdown)
+mobileDropdownToggleButtons.forEach((item) => {
+    item.addEventListener("click", handleClickMobileDropdownToggle)
 })

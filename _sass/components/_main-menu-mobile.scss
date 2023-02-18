@@ -36,7 +36,7 @@
     }
   }
   > ul {
-    font-size: 21px;
+    font-size: 28px;
     font-family: $font-family-heading;
     text-align: center;
     list-style: none;
@@ -75,19 +75,19 @@
   overflow: hidden;
 }
 
-.main-menu-toggle {
+.main-menu-toggle-mobile {
   & > * {
     pointer-events: none;
   }
 }
 
 .main-menu-dropdown-mobile {
-  font-size: 16px;
+  font-size: 18px;
   font-family: $font-family-base;
-  display: none;
-  transition: transform 225ms cubic-bezier(0.4, 0, 0, 1);
+  overflow: hidden;
+  transition: height 225ms cubic-bezier(0.4, 0, 0, 1);
 
-  &.active {
-    display: block;
+  &:not(.active) {
+    display: none;
   }
 }
