@@ -35,15 +35,19 @@ main:
     submenu:
       - name: "Github"
         url: "https://github.com/kurianinc/ami-pub"
+        is_external: true
         weight: 10
       - name: "Kurian DevOps Blog"
         url: "https://kurianinc.medium.com/"
+        is_external: true
         weight: 20
       - name: "AWS Marketplace Listing"
         url: "https://aws.amazon.com/marketplace/search/results?x=0&y=0&searchTerms=kurian"
+        is_external: true
         weight: 30
       - name: "Facebook page"
         url: "https://www.facebook.com/kurianinc/"
+        is_external: true
         weight: 40
   # - name: "Team"
   #   url: "/team/"
