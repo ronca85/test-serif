@@ -10,3 +10,14 @@ menuTrigger.onclick = function() {
 
 // custom
 document.getElementById("js-copyright-year").innerHTML = new Date().getFullYear();
+
+var mobileDropdowns = [...document.querySelectorAll(".js-mobile-dropdown-toggle")]
+
+function handleClickMobileDropdown() {
+    mobileDropdowns.forEach((item) => item.nextElementSibling.classList.remove("active"))
+    this.nextElementSibling.classList.toggle("active")
+}
+
+mobileDropdowns.forEach((item) => {
+    item.addEventListener("click", handleClickMobileDropdown)
+})

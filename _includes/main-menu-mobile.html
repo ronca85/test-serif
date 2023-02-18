@@ -3,7 +3,33 @@
   <ul>
     {% for item in mainmenu %}
     <li class="{% if item.url == page.url %}active{% endif %}">
-      <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+      {% if item.url %}
+      <a href="{{ item.url | relative_url }}">
+        <span>{{ item.name }}</span>
+      </a>
+
+      {% else %}
+      <a href="#" class="main-menu-toggle-mobile js-mobile-dropdown-toggle">
+        <span>{{ item.name }}</span>
+        <span class="submenu-indicator"></span>
+      </a>
+
+      {% assign submenu = item.submenu | sort: 'weight' %}
+      <ul class="main-menu-dropdown-mobile js-mobile-dropdown-panel">
+        {% for item in submenu %}
+
+        <li class="{% if item.url == page.url %}active{% endif %}">
+          {% if item.url %}
+          <a href="{{ item.url | relative_url }}">
+            <span>{{ item.name }}</span>
+          </a>
+          {% endif %}
+        </li>
+
+        {% endfor %}
+      </ul>
+      {% endif %}
+
     </li>
     {% endfor %}
   </ul>

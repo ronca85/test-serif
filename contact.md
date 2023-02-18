@@ -4,13 +4,8 @@ layout: contact
 description: Contact
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
+If you want to engage us or require assistance with using our services, please contact using one of the following options.
 
-| Day       | Opening Hours   |
-| --------- | --------------- |
-| Tuesday   | 8:30am - 5:00pm |
-| Wednesday | 8:30am - 5:00pm |
-| Thursday  | 8:30am - 5:00pm |
-| Friday    | 8:30am - 5:00pm |
-| Saturday  | 10:am - 4:00pm  |
-| Saturday  | Closed          |
+E-Mail: [contact@kurianinc.com](mailto:contact@kurianinc.com)
+
+Report issues with AWS machine images by Kurian: <a href="https://github.com/kurianinc/ami-pub/issues/new" target="_blank">https://github.com/kurianinc/ami-pub/issues/new</a>

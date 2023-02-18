@@ -1,6 +1,7 @@
 ---
 title: "CI/CD Pipeline Cloud Resources"
 date: 2023-01-01T10:00:00+10:00
+permalink: "/aws-professional-services/ci-cd-pipeline-cloud-resources/"
 weight: 50
 ---
 

@@ -6,14 +6,45 @@ main:
     url: "/about/"
     weight: 20
   - name: "Products"
-    url: "/aws-machine-images/"
     weight: 30
+    submenu:
+      - name: "AWS Machine Images"
+        url: "/aws-machine-images/"
+        weight: 10
   - name: "Services"
-    url: "/aws-professional-services/"
     weight: 40
+    submenu:
+      - name: "AWS Professional Services"
+        url: "/aws-professional-services/"
+        weight: 10
+      - name: "Content Management Hosting"
+        url: "/aws-professional-services/content-management-hosting/"
+        weight: 20
+      - name: "SmallBiz on the Cloud"
+        url: "/aws-professional-services/smallbiz-on-the-cloud/"
+        weight: 30
+      - name: "CI/CD Pipeline Cloud Resources"
+        url: "/aws-professional-services/ci-cd-pipeline-cloud-resources/"
+        weight: 40
+      - name: "Public Cloud Machine Image"
+        url: "/aws-professional-services/public-cloud-machine-image/"
+        weight: 50
   - name: "Resources"
-    url: "/resources/"
+    # url: "/resources/" # toggle comment to use dropdown
     weight: 50
+    submenu:
+      - name: "Github"
+        url: "https://github.com/kurianinc/ami-pub"
+        weight: 10
+      - name: "Kurian DevOps Blog"
+        url: "https://kurianinc.medium.com/"
+        weight: 20
+      - name: "AWS Marketplace Listing"
+        url: "https://aws.amazon.com/marketplace/search/results?x=0&y=0&searchTerms=kurian"
+        weight: 30
+      - name: "Facebook page"
+        url: "https://www.facebook.com/kurianinc/"
+        weight: 40
   # - name: "Team"
   #   url: "/team/"
   #   weight: 70
