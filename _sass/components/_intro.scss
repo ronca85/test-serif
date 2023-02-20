@@ -45,3 +45,35 @@
   padding-top: 100px;
   padding-bottom: 30px;
 }
+
+.ratio {
+  position: relative;
+  display: block;
+
+  &:before {
+    display: block;
+    padding-bottom: 100%;
+    width: 100%;
+    content: "";
+  }
+}
+
+.ratio > .anim-item {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  // height: 100%;
+  animation: jumping 1s ease-in-out 0s infinite alternate;
+}
+
+@keyframes jumping {
+  from {
+      transform: translateY(1rem);
+  }
+
+  to {
+      transform: translateY(-1rem);
+  }
+}
