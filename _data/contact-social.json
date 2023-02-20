@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Facebook",
+    "link": "https://facebook.com/kurianinc",
+    "image": "images/contact-social/facebook.svg"
+  },
+  {
+    "name": "Twitter",
+    "link": "https://twitter.com/DevOpsCompany",
+    "image": "images/contact-social/twitter.svg"
+  },
+  {
+    "name": "Blog",
+    "link": "https://kurianinc.medium.com/",
+    "image": "images/contact-social/medium.svg"
+  },
+  {
+    "name": "Github",
+    "link": "https://github.com/kurianinc",
+    "image": "images/contact-social/github.svg"
+  }
+]

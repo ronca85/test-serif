@@ -22,7 +22,7 @@ bodyClass: "page-resources"
       {% assign resources = site.resources | sort: 'weight' %}
       
       {% for resource in resources %}
-      <div class="col-12 col-md-6 mb-3">
+      <div class="col-12 col-sm-6 col-md-4 col-xl-3">
         <h2 class="card-title">
           {% if resource.externalUrl %}
           <a href="{{ resource.externalUrl }}" target="_blank" class="card-link">{{ resource.title }}</a>

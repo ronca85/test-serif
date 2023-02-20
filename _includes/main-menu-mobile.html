@@ -20,7 +20,7 @@
 
         <li class="{% if item.url == page.url %}active{% endif %}">
           {% if item.url %}
-          <a href="{{ item.url | relative_url }}">
+          <a href="{{ item.url | relative_url }}" {% if item.is_external %}target="_blank"{% endif %}>
             <span>{{ item.name }}</span>
           </a>
           {% endif %}

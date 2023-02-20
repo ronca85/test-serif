@@ -2,12 +2,6 @@
   margin-bottom: 2rem;
 }
 
-@include media-breakpoint-up(md) {
-  .card-wrapper {
-    padding: 2rem;
-  }
-}
-
 // used these guidelines https://www.bbc.co.uk/gel/guidelines/category/foundations
 
 .card {
@@ -34,8 +28,14 @@
     width: 100%;
   }
 
-  
   .card-content {
     margin-top: 1.5rem;
+  }
+
+  .card-title {
+    font-size: 1.125rem;
+    @include media-breakpoint-up(md) {
+      font-size: 1.25rem;
+    }
   }
 }

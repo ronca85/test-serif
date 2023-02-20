@@ -61,13 +61,11 @@ bodyClass: "page-home"
 
       {% for service in site.services limit: limit %}
       <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-            </h2>
-            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
-          </div>
+        <div class="card">
+          <h2 class="card-title">
+            <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+          </h2>
+          <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
         </div>
       </div>
       {% endfor %}

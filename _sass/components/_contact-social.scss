@@ -1,0 +1,29 @@
+.page-contact-social {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  @include media-breakpoint-up(md) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.contact-social-item {
+  display: flex;
+  align-items: center;
+  background-color: darken($white-offset, 2%);
+  padding: 0.75em 1.5em;
+  border-radius: 0.5em;
+
+  &:hover {
+    background-color: $white-offset;
+  }
+}
+
+.contact-social-item-title {
+  margin-bottom: 0;
+  margin-left: 1rem;
+  font-size: 1.125rem;
+  @include media-breakpoint-up(md) {
+    font-size: 1.25rem;
+  }
+}

@@ -3,6 +3,8 @@
   outline: none;
   z-index: 30;
   cursor: pointer;
+
+  display: flex;
   @include media-breakpoint-up(md) {
     display: none;
   }

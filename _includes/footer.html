@@ -1,3 +1,23 @@
+{% if page.url == "/contact/"" %}
+<div class="page-contact-social">
+  <div class="container">
+    <div class="row">
+      {% if site.data.contact-social %}
+        {% for item in site.data.contact-social %}
+          <div class="col-6 col-sm-3 col-md-3">
+            <a class="contact-social-item" href="{{ item.link }}" target="_blank">
+              <img width="36" height="36" src="{{ item.image | relative_url }}" title="{{ item.name }}" alt="{{ item.name }}" />
+              <span class="contact-social-item-title">{{ item.name }}</span>
+            </a>
+          </div>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endif %}
+
+
 <div class="footer">
   <div class="container">
     <div class="row">
