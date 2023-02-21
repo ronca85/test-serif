@@ -9,17 +9,20 @@
     padding-top: 90px;
     padding-bottom: 90px;
   }
+  .hero {
+    color: $primary;
+    font-size: 2rem;
+    @include media-breakpoint-up(md) {
+      font-size: 2.25rem;
+    }
+  }
   h1 {
     color: $black;
-    font-size: 2.25rem;
+    font-size: 1.5rem;
     font-family: $font-family-heading;
     line-height: 1.2;
     @include media-breakpoint-up(md) {
-      width: 80%;
-      font-size: 2.75rem;
-    }
-    @include media-breakpoint-up(lg) {
-      font-size: 3.25rem;
+      font-size: 1.75rem;
     }
   }
   h2 {

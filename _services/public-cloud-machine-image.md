@@ -1,6 +1,7 @@
 ---
 title: "Public Cloud Machine Image"
 date: 2023-01-01T10:00:00+10:00
+image: "images/services/public-cloud-machine-image.jpg"
 permalink: "/aws-professional-services/public-cloud-machine-image/"
 weight: 60
 ---
