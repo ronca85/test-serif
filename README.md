@@ -25,7 +25,7 @@ For best results keep the dimensions consistent.
 
 Note: If you decide to change the dimensions at some point you will need to change the dimensions for all images so it is best to stay with the format.
 
-Use photopea and tinypng for image optimization.
+Use [photopea](https://www.photopea.com/) and [tinypng](https://tinypng.com/) for image optimization.
 
 ![product/about thumbnail tempalte](https://user-images.githubusercontent.com/13383578/220555751-74a47c75-c58d-4325-92a3-8aa11ad8fb28.png)
 ![service thumbnail tempalte](https://user-images.githubusercontent.com/13383578/220555958-4ea4caf3-d99c-4b93-bf97-6bbc8a732ad9.png)
